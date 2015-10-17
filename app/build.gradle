@@ -50,7 +50,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
 
-
     // recycler view
     compile "com.android.support:recyclerview-v7:23.0.0"
 
@@ -60,9 +59,6 @@ dependencies {
 
     // rx
     compile 'io.reactivex:rxandroid:1.0.1'
-
-    // picasso
-    compile 'com.squareup.picasso:picasso:2.5.2'
 
     // butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
