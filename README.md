@@ -1,6 +1,6 @@
 #RxBlrdroid
 
-This is the codelab for the session on [RxJava at Blrdroid (17th October, 2015)](http://www.meetup.com/blrdroid/events/225869107/)
+This is the codelab for the session on [RxJava at Blrdroid (17th October, 2015).](http://www.meetup.com/blrdroid/events/225869107/)<br/>
 The associated presentation can be found on [my speakerdeck page.](https://speakerdeck.com/soham/getting-started-with-rxjava)
 
 ##Overall objective
