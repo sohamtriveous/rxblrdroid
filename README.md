@@ -6,6 +6,9 @@ The associated presentation can be found on [my speakerdeck page.](https://speak
 ##Overall objective
 Use the concepts of RxJava to  orchestrate different operations in android. More specifically, we intend to make network calls to get lists of tracks created by 2 separate music bands and then using RxJava to combine and sort them. The results will be displayed in a RecyclerView.
 
+![Sorted list of tracks by two bands](preview.png "The output")
+
+
 ##Concepts covered
 - Creating Observables using Observable.create
 - Using Retrofit to create Observables, here we create an Observable manually using a synchronous call in Retrofit
