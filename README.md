@@ -1,6 +1,7 @@
 #RxBlrdroid
 
-This is the codelab for the session on RxJava at Blrdroid (17th October, 2015)
+This is the codelab for the session on [RxJava at Blrdroid (17th October, 2015)](http://www.meetup.com/blrdroid/events/225869107/)
+The associated presentation can be found on [my speakerdeck page.](https://speakerdeck.com/soham/getting-started-with-rxjava)
 
 ##Overall objective
 Use the concepts of RxJava to  orchestrate different operations in android. More specifically, we intend to make network calls to get lists of tracks created by 2 separate music bands and then using RxJava to combine and sort them. The results will be displayed in a RecyclerView.
@@ -20,7 +21,7 @@ Use the concepts of RxJava to  orchestrate different operations in android. More
 This is the final output of the codelab, to get started, you would need to clone the repository and delete/clear some files/methods, more specifically
 - Delete the Music.java class
 - Clear the fabOnClick method inside MainActivity
-- (Optional) In case you don't have Java 8 installed remove any references of Retrolambda from app/build.gradle, if you have please update the JDK link in build.gradle. In case you still face issues, checkout the build.gradle file from [this commit of this repo](https://github.com/triveous/rxblrdroid/commit/7c5c1e225f4d9f9a476f6dfb2f3409663ae48149).
+- (Optional) In case you don't have Java 8 installed remove any references of Retrolambda from app/build.gradle, if you have please update the JDK link in build.gradle. In case you still face issues, checkout app/build.gradle from [this commit.](https://github.com/triveous/rxblrdroid/commit/7c5c1e225f4d9f9a476f6dfb2f3409663ae48149)
 
 Here are the actual steps in the codelab itself:
 ###Step 1: Understand how Observable.create and other operations like map work
@@ -38,11 +39,8 @@ Here are the actual steps in the codelab itself:
 - Once the fab is clicked on the screen, you would need display the results in provided RecyclerView
 
 ##Dependencies
-- AppCompat, RecyclerView and Design support library
+- AppCompat, RecyclerView and the Design support library
 - Retrofit and GSON: for the network operations
 - RxAndroid: for all Rx stuff
-- Retrolambda and Java 8 (Optional): for the lambda operator
 - Butterknife: for view injection
-
-##More information
-The presentation for the talk can be found at https://speakerdeck.com/soham/getting-started-with-rxjava
+- (Optional) Retrolambda and Java 8: for the lambda operator
