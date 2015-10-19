@@ -20,7 +20,7 @@ Use the concepts of RxJava to  orchestrate different operations in android. More
 This is the final output of the codelab, to get started, you would need to clone the repository and delete/clear some files/methods, more specifically
 - Delete the Music.java class
 - Clear the fabOnClick method inside MainActivity
-- (Optional) In case you don't have Java 8 installed remove any references of Retrolambda from app/build.gradle, if you have please update the JDK link in build.gradle
+- (Optional) In case you don't have Java 8 installed remove any references of Retrolambda from app/build.gradle, if you have please update the JDK link in build.gradle. In case you still face issues, checkout the build.gradle file from [this commit of this repo](https://github.com/triveous/rxblrdroid/commit/7c5c1e225f4d9f9a476f6dfb2f3409663ae48149).
 
 Here are the actual steps in the codelab itself:
 ###Step 1: Understand how Observable.create and other operations like map work
